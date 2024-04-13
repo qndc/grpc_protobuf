@@ -1,0 +1,7 @@
+syntax = "proto3";
+option java_package = "com.dc.lib.dto";
+option java_outer_classname = "EmptyProto";
+option java_multiple_files = false;
+
+message Empty {
+}

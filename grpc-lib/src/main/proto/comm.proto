@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "com.dc.lib.dto";
+option java_outer_classname = "CommProto";
+option java_multiple_files = false;
+
+message PageInfo{
+  uint32 pageSize = 1;
+  uint32 pageNum = 5;
+}

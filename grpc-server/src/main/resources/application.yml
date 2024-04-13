@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: grpc-server
+server:
+  port: 9000
+
+grpc:
+  server:
+    port: 8001
